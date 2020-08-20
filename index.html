@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Responsive Diamond Gallery</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/diamonds.css" />
+	
+</head>
+
+<body>
+	<div><p>Ele Koot Gallery</p></div>
+	<div class="diamond-grid">
+		<div class="item"><a href="images/bg-1.png" target="_blank"><img src="images/bg-1.png"></a></div>
+		<div class="item"><a href="images/bg-2.png" target="_blank"><img src="images/bg-2.png"></a></div>
+		<div class="item"><a href="images/bg-3.png" target="_blank"><img src="images/bg-3.png"></a></div>
+		<div class="item"><a href="images/bg-4.png" target="_blank"><img src="images/bg-4.png"></a></div>
+		<div class="item"><a href="images/bg-5.png" target="_blank"><img src="images/bg-5.png"></a></div>
+		<div class="item"><a href="images/bg-6.png" target="_blank"><img src="images/bg-6.png"></a></div>
+		<div class="item"><a href="images/bg-7.png" target="_blank"><img src="images/bg-7.png"></a></div>
+		<div class="item"><a href="images/bg-8.png" target="_blank"><img src="images/bg-8.png"></a></div>
+		<div class="item"><a href="images/bg-9.png" target="_blank"><img src="images/bg-9.png"></a></div>
+		<div class="item"><a href="images/bg-10.png" target="_blank"><img src="images/bg-10.png"></a></div>
+		<div class="item"><a href="images/bg-11.png" target="_blank"><img src="images/bg-11.png"></a></div>
+		<div class="item"><a href="images/bg-12.png" target="_blank"><img src="images/bg-12.png"></a></div>
+		<div class="item"><a href="images/bg-13.png" target="_blank"><img src="images/bg-13.png"></a></div>
+		<div class="item"><a href="images/bg-14.png" target="_blank"><img src="images/bg-14.png"></a></div>
+		<div class="item"><a href="images/bg-15.png" target="_blank"><img src="images/bg-15.png"></a></div>
+		<div class="item"><a href="images/bg-16.png" target="_blank"><img src="images/bg-16.png"></a></div>
+		<div class="item"><a href="images/bg-17.png" target="_blank"><img src="images/bg-17.png"></a></div>
+		<div class="item"><a href="images/bg-18.png" target="_blank"><img src="images/bg-18.png"></a></div>
+		<div class="item"><a href="images/bg-19.png" target="_blank"><img src="images/bg-19.png"></a></div>
+		<div class="item"><a href="images/bg-20.png" target="_blank"><img src="images/bg-20.png"></a></div>
+		<div class="item"><a href="images/bg-21.png" target="_blank"><img src="images/bg-21.png"></a></div>
+		<div class="item"><a href="images/bg-22.png" target="_blank"><img src="images/bg-22.png"></a></div>
+		<div class="item"><a href="images/bg-23.png" target="_blank"><img src="images/bg-23.png"></a></div>
+		<div class="item"><a href="images/bg-24.png" target="_blank"><img src="images/bg-24.png"></a></div>
+		<div class="item"><a href="images/bg-25.png" target="_blank"><img src="images/bg-25.png"></a></div>
+		<div class="item"><a href="images/bg-26.png" target="_blank"><img src="images/bg-26.png"></a></div>
+		<div class="item"><a href="images/bg-27.png" target="_blank"><img src="images/bg-27.png"></a></div>
+		<div class="item"><a href="images/bg-28.png" target="_blank"><img src="images/bg-28.png"></a></div>
+		<div class="item"><a href="images/bg-29.png" target="_blank"><img src="images/bg-29.png"></a></div>
+		<div class="item"><a href="images/bg-30.png" target="_blank"><img src="images/bg-30.png"></a></div>
+		<div class="item"><a href="images/bg-31.png" target="_blank"><img src="images/bg-31.png"></a></div>
+		<div class="item"><a href="images/bg-32.png" target="_blank"><img src="images/bg-32.png"></a></div>
+		<div class="item"><a href="images/bg-33.png" target="_blank"><img src="images/bg-33.png"></a></div>
+		<div class="item"><a href="images/bg-34.png" target="_blank"><img src="images/bg-34.png"></a></div>
+		<div class="item"><a href="images/bg-35.png" target="_blank"><img src="images/bg-35.png"></a></div>
+		<div class="item"><a href="images/bg-36.png" target="_blank"><img src="images/bg-36.png"></a></div>
+		<div class="item"><a href="images/bg-37.png" target="_blank"><img src="images/bg-37.png"></a></div>
+		<div class="item"><a href="images/bg-38.png" target="_blank"><img src="images/bg-38.png"></a></div>
+		<div class="item"><a href="images/bg-39.png" target="_blank"><img src="images/bg-39.png"></a></div>
+		<div class="item"><a href="images/bg-40.png" target="_blank"><img src="images/bg-40.png"></a></div>
+		<div class="item"><a href="images/bg-41.png" target="_blank"><img src="images/bg-41.png"></a></div>
+		<div class="item"><a href="images/bg-42.png" target="_blank"><img src="images/bg-42.png"></a></div>
+	</div>	
+</body>
+<footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="js/jquery.diamonds.js"></script>
+	<script type="text/javascript">
+		$(".diamond-grid").diamonds({
+			size : 220, // Size of diamonds in pixels. Both width and height. 
+			gap : 5, // Pixels between each square.
+			hideIncompleteRow : false, // Hide last row if there are not enough items to fill it completely.
+			autoRedraw : true, // Auto redraw diamonds when it detects resizing.
+			itemSelector : ".item" // the css selector to use to select diamonds-items.
+		});
+	</script>
+</footer>
+</html>
