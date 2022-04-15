@@ -14,6 +14,13 @@ p {
 	margin-left: -50px;
 	color: #66FFCC;
 }
+p a {
+	text-decoration: none;
+	color: #148f55;
+	font-weight: lighter;
+	text-align: center;
+	font-size: 1.8rem;
+}
 .diamond-grid {
 	width: 70%;
 	margin: 10px auto 0;
